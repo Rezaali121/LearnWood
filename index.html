@@ -1,0 +1,534 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="description" content="فراچوب - طراحی و اجرای کابینت، دکوراسیون داخلی، کمد دیواری و مصنوعات چوبی با بیش از ۱۵ سال تجربه تخصصی">
+  <meta name="keywords" content="کابینت، کمد دیواری، ممبران، MDF، نئوکلاسیک، طراحی داخلی، سازه چوبی، فراچوب">
+
+  <title>فراچوب | امضای تجربه بر پیکره چوب</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+input, select, textarea {
+  background: #2c2c2c;
+  border: 1px solid #444;
+  padding: 0.6rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #f7d774;
+}
+label {
+  color: #ddd;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.button-luxury {
+  display: inline-block;
+  padding: 1rem 2.2rem;
+  background: linear-gradient(145deg, #f6d365, #fda085);
+  border: none;
+  border-radius: 12px;
+  color: #111;
+  font-weight: 700;
+  font-size: 1.05rem;
+  font-family: 'Vazirmatn', sans-serif;
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25),
+    0 1px 3px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.button-luxury:hover {
+  background: linear-gradient(145deg, #ffe08a, #e5b85c);
+  box-shadow:
+    inset 0 2px 4px rgba(255, 255, 255, 0.2),
+    0 8px 16px rgba(0, 0, 0, 0.35),
+    0 3px 6px rgba(0, 0, 0, 0.25);
+  transform: translateY(-2px);
+}
+
+option {
+  background-color: #f6d365;
+  color: #111;
+}
+
+@media (max-width: 768px) {
+  .button-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  input, select, textarea {
+    width: 90%;
+  }
+  section {
+    padding: 2rem 1rem;
+  }
+}
+body {
+      font-family: 'Vazirmatn', sans-serif;
+      background: #0a0a0a;
+      color: #eee;
+      line-height: 1.9;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(15,15,15,0.95);
+      padding: 1rem;
+      z-index: 9999;
+      text-align: center;
+    }
+    nav button {
+      background: none;
+      border: none;
+      color: #f7d774;
+      margin: 0 1rem;
+      font-weight: bold;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+    
+    section.active { display: block; }
+    h3 { color: #d4af37; margin-bottom: 1rem; }
+    footer {
+      background:#111;
+      padding:2rem;
+      text-align:center;
+      color:#888;
+      font-size:0.85rem;
+      position: relative;
+      z-index: 100;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  
+.menu-toggle {
+  display: none;
+}
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: #f7d774;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  .menu-buttons {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .menu-buttons.active {
+    display: flex;
+  }
+}
+
+
+section {
+  display: none;
+  padding-top: 160px;
+  padding-bottom: 80px;
+  max-width: 1100px;
+  margin: auto;
+  animation: fadeIn 0.7s ease-in-out;
+}
+section.active {
+  display: block;
+}
+
+</style>
+
+  <!-- Clarity tracking code -->
+  <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "rs3hnmvmzw");
+  </script>
+
+</head>
+<body>
+
+
+<nav>
+  <div style="display:flex; justify-content:center; align-items:center; gap:1rem; flex-wrap:wrap;">
+    <img src="https://via.placeholder.com/40x40.png?text=F" style="border-radius:50%; width:40px; height:40px;" alt="لوگو">
+    <span style="color:#f7d774; font-weight:bold; font-size:1.1rem;">فراچوب</span>
+  </div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰ منو</button>
+    <div class="menu-buttons">
+    <button onclick="showSection('intro')">خانه</button>
+    <button onclick="showSection('gallery')">گالری</button>
+    <button onclick="showSection('calculator')">محاسبه قیمت</button>
+    <button onclick="showSection('order')">سفارش</button>
+    <button onclick="showSection('tips')">ترفندها</button>
+    <button onclick="showSection('materials')">متریال‌ها</button>
+    <button onclick="showSection('advisor')">مشاور</button>
+    <button onclick="showSection('video')">ویدیو</button>
+    <button onclick="showSection('about')">درباره ما</button>
+    </div>
+</nav></nav>
+
+
+
+
+<section id="intro" class="active" data-aos="fade-up" style="background:#1a1a1a; color:#f0e6d2; padding: 6rem 1.5rem 3rem 1.5rem; text-align: center;">
+<div style="margin-top: 6rem;"></div>
+  <h1 style="font-size:2.2rem; font-weight:700; color:#d4af37; margin-bottom:1rem;">طراحی و اجرای کابینت و دکوراسیون اختصاصی</h1>
+  <p style="max-width:700px; margin:0 auto; font-size:1.1rem; line-height:2; color:#ddd;">
+    در <strong style="color:#f7d774;">فراچوب</strong>، با ترکیب <em>سلیقه شما</em> و تجربه <strong>۱۵ ساله ما</strong>، فضاهایی <u>زیبا</u>، کاربردی و منحصربه‌فرد خلق می‌کنیم.<br>
+    از آشپزخانه تا کمد و میز تلویزیون، طراحی دقیق، اجرای حرفه‌ای و مشاوره اختصاصی، همه در یک مسیر ساده.
+  </p>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-top: 2.5rem;">
+    <button onclick="showSection('order')" style="background:#d4af37; color:#111; border:none; padding:0.9rem 1.5rem; border-radius:8px; font-weight:bold; font-size:1rem; cursor:pointer;">✨ شروع سفارش</button>
+    <button onclick="showSection('gallery')" style="background:#333; color:#f7d774; border:1px solid #555; padding:0.9rem 1.5rem; border-radius:8px; font-weight:500; font-size:1rem; cursor:pointer;">🖼️ دیدن نمونه‌کارها</button>
+    <button onclick="showSection('materials')" style="background:#333; color:#f7d774; border:1px solid #555; padding:0.9rem 1.5rem; border-radius:8px; font-weight:500; font-size:1rem; cursor:pointer;">🧱 آشنایی با متریال‌ها</button>
+    <button onclick="showSection('advisor')" style="background:#333; color:#f7d774; border:1px solid #555; padding:0.9rem 1.5rem; border-radius:8px; font-weight:500; font-size:1rem; cursor:pointer;">🤖 مشاور هوشمند</button>
+    <button onclick="showSection('tips')" style="background:#333; color:#f7d774; border:1px solid #555; padding:0.9rem 1.5rem; border-radius:8px; font-weight:500; font-size:1rem; cursor:pointer;">💡 ترفندهای کاربردی</button>
+    <button onclick="showSection('calculator')" style="background:#333; color:#f7d774; border:1px solid #555; padding:0.9rem 1.5rem; border-radius:8px; font-weight:500; font-size:1rem; cursor:pointer;">💰 محاسبه قیمت</button>
+  </div>
+
+  <p style="margin-top:2.5rem; font-size:0.95rem; color:#bbb;">👋 از کجا با هم شروع کنیم؟ یکی از گزینه‌ها رو انتخاب کن تا سریع‌تر برسیم به طرح ایده‌آلت.</p>
+</section>
+
+<section id="gallery">
+  
+<h3>نمونه‌کارها بر اساس سبک و متریال</h3>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem;">
+  <div style="background:#1a1a1a; padding:0.5rem; border-radius:6px;">
+    <img src="https://via.placeholder.com/350x220.png?text=Modern+MDF" style="width:100%; border-radius:6px;">
+    <p style="margin-top:0.5rem;">مدرن با MDF</p>
+  </div>
+  <div style="background:#1a1a1a; padding:0.5rem; border-radius:6px;">
+    <img src="https://via.placeholder.com/350x220.png?text=Classic+Membrane" style="width:100%; border-radius:6px;">
+    <p style="margin-top:0.5rem;">کلاسیک با ممبران</p>
+  </div>
+  <div style="background:#1a1a1a; padding:0.5rem; border-radius:6px;">
+    <img src="https://via.placeholder.com/350x220.png?text=Neo+PU" style="width:100%; border-radius:6px;">
+    <p style="margin-top:0.5rem;">نئوکلاسیک با پلی‌اورتان</p>
+  </div>
+</div>
+
+</section>
+<section id="calculator">
+  
+<h3>محاسبه قیمت اولیه پروژه</h3>
+<form id="calcForm" style="display:grid; gap:1rem; margin-top:2rem;">
+  <label>سبک طراحی:
+    <select id="style">
+      <option value="modern">مدرن</option>
+      <option value="classic">کلاسیک</option>
+      <option value="neo">نئوکلاسیک</option>
+    </select>
+  </label>
+  <label>نوع متریال:
+    <select id="material">
+      <option value="mdf">MDF</option>
+      <option value="membrane">ممبران</option>
+      <option value="pu">پلی‌اورتان</option>
+      <option value="enzo">انزو (پولیشی)</option>
+    </select>
+  </label>
+  <label>نوع یراق‌آلات:
+    <select id="hardware">
+      <option value="normal">معمولی</option>
+      <option value="softclose">آرام‌بند</option>
+      <option value="luxury">برند لاکچری</option>
+    </select>
+  </label>
+  <label>متراژ (متر مربع):
+    <input type="number" id="area" required>
+  </label>
+  <button type="button" onclick="estimatePrice()" style="padding:0.7rem; background:#d4af37; border:none; color:#000; font-weight:bold;">محاسبه قیمت</button>
+</form>
+<div id="priceResult" style="margin-top:1.5rem; font-weight:bold; color:#f7d774;"></div>
+<script>
+function estimatePrice() {
+  const material = document.getElementById("material").value;
+  const hardware = document.getElementById("hardware").value;
+  const area = parseFloat(document.getElementById("area").value);
+
+  if (!area || area <= 0) {
+    document.getElementById("priceResult").innerText = "لطفاً متراژ معتبر وارد کنید.";
+    return;
+  }
+
+  let basePrice = 0;
+  if (material === "mdf") basePrice = 2300000;
+  else if (material === "membrane") basePrice = 2800000;
+  else if (material === "pu") basePrice = 3200000;
+  else if (material === "enzo") basePrice = 3700000;
+
+  let hardwareFactor = 1;
+  if (hardware === "softclose") hardwareFactor = 1.15;
+  else if (hardware === "luxury") hardwareFactor = 1.35;
+
+  const finalPrice = area * basePrice * hardwareFactor;
+  const formatted = finalPrice.toLocaleString("fa-IR") + " تومان";
+
+  document.getElementById("priceResult").innerText = "🔢 قیمت تخمینی: " + formatted;
+}
+
+</script>
+
+</section>
+<section id="order">
+  
+<h3>ثبت سفارش و رزرو بازدید</h3>
+<p>لطفاً فرم زیر را تکمیل کنید تا درخواست شما از طریق واتساپ ارسال شود و هماهنگی‌های لازم انجام گردد:</p>
+<form id="orderForm" style="display:grid; gap:1rem; margin-top:2rem;">
+  <label>نام:
+    <input type="text" id="name">
+  </label>
+  <label>شماره تماس:
+    <input type="tel" id="phone">
+  </label>
+  <label>نوع پروژه:
+    <select id="project">
+      <option>کابینت آشپزخانه</option>
+      <option>کمد دیواری</option>
+      <option>دکور مغازه</option>
+      <option>سایر</option>
+    </select>
+  </label>
+  <label>توضیحات:
+    <textarea id="desc" rows="3"></textarea>
+  </label>
+  <button type="button" onclick="sendOrderToWhatsapp()" style="padding:0.7rem; background:#d4af37; border:none; color:#000; font-weight:bold;">ارسال به واتساپ</button>
+</form>
+<script>
+function sendOrderToWhatsapp() {
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const project = document.getElementById("project").value;
+  const desc = document.getElementById("desc").value;
+
+  const msg = `🛠 سفارش جدید:
+👤 نام: ${name}
+📞 تماس: ${phone}
+🔧 پروژه: ${project}
+📝 توضیحات: ${desc}`;
+  const wa_url = "https://wa.me/989190355991?text=" + encodeURIComponent(msg);
+  window.open(wa_url, "_blank");
+}
+
+</script>
+
+</section>
+<section id="tips">
+  
+<h3>ترفندهای طلایی در طراحی کابینت و دکوراسیون چوبی</h3>
+<ul style="margin-top:2rem; line-height:2; font-size:1rem;">
+  <li>برای آشپزخانه‌های کوچک از رنگ‌های روشن و درب‌های براق استفاده کنید.</li>
+  <li>نور مخفی زیر کابینت زمینی، جلوه فضای شما را حرفه‌ای‌تر می‌کند.</li>
+  <li>یراق‌آلات آرام‌بند باعث افزایش طول عمر کابینت‌ها می‌شوند.</li>
+  <li>برای ایجاد سبک مینیمال، از درب‌های بدون دستگیره استفاده کنید.</li>
+  <li>در فضاهای ویلایی استفاده از چوب طبیعی و ابزارخورده، اصالت را حفظ می‌کند.</li>
+  <li>استفاده از روکش پلی‌اورتان برای مقاومت بیشتر در برابر رطوبت توصیه می‌شود.</li>
+  <li>نصب صحیح لولا و ریل تأثیر زیادی در عملکرد و دوام سازه دارد.</li>
+  <li>در سبک کلاسیک از تاج و ستون‌های ابزارخورده استفاده کنید.</li>
+</ul>
+
+</section>
+<section id="materials">
+  
+<h3>مقایسه متریال‌های رایج در طراحی کابینت</h3>
+<table style="width:100%; border-collapse: collapse; font-size:0.95rem; margin-top:2rem;">
+  <thead style="background:#333; color:#f7d774;">
+    <tr>
+      <th style="padding:0.8rem; border:1px solid #555;">متریال</th>
+      <th style="padding:0.8rem; border:1px solid #555;">مزایا</th>
+      <th style="padding:0.8rem; border:1px solid #555;">معایب</th>
+      <th style="padding:0.8rem; border:1px solid #555;">سبک مناسب</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:0.8rem; border:1px solid #444;">MDF</td>
+      <td style="padding:0.8rem; border:1px solid #444;">قیمت مناسب، تنوع روکش، ابزارپذیر</td>
+      <td style="padding:0.8rem; border:1px solid #444;">ضعیف در برابر رطوبت و ضربه</td>
+      <td style="padding:0.8rem; border:1px solid #444;">مدرن، اقتصادی</td>
+    </tr>
+    <tr>
+      <td style="padding:0.8rem; border:1px solid #444;">ممبران</td>
+      <td style="padding:0.8rem; border:1px solid #444;">ابزارخور، نمای کلاسیک، مقاوم نسبی</td>
+      <td style="padding:0.8rem; border:1px solid #444;">حساس به حرارت بالا</td>
+      <td style="padding:0.8rem; border:1px solid #444;">کلاسیک اقتصادی</td>
+    </tr>
+    <tr>
+      <td style="padding:0.8rem; border:1px solid #444;">پلی‌اورتان</td>
+      <td style="padding:0.8rem; border:1px solid #444;">مقاوم، براق، شست‌وشوپذیر</td>
+      <td style="padding:0.8rem; border:1px solid #444;">هزینه متوسط تا بالا</td>
+      <td style="padding:0.8rem; border:1px solid #444;">مدرن لاکچری، نئوکلاسیک</td>
+    </tr>
+    <tr>
+      <td style="padding:0.8rem; border:1px solid #444;">انزو (پولیشی)</td>
+      <td style="padding:0.8rem; border:1px solid #444;">سطح آینه‌ای، جلوه خاص، ضخیم</td>
+      <td style="padding:0.8rem; border:1px solid #444;">سنگین، گران، اجرای زمان‌بر</td>
+      <td style="padding:0.8rem; border:1px solid #444;">نئوکلاسیک لاکچری</td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-size:0.85rem; color:#aaa; margin-top:2rem;">📌 پیشنهاد نهایی بسته به فضای پروژه و بودجه و زیبایی‌شناسی شما ارائه می‌شود.</p>
+
+</section>
+<section id="advisor">
+  
+<h3>مشاور هوشمند انتخاب سبک و متریال</h3>
+<form id="advisorForm" style="display:grid; gap:1rem; margin-top:2rem;">
+  <label>نوع فضا:
+    <select id="space">
+      <option>آشپزخانه</option>
+      <option>کمد دیواری</option>
+      <option>دکور مغازه</option>
+      <option>سایر</option>
+    </select>
+  </label>
+  <label>بودجه تقریبی:
+    <select id="budget">
+      <option>اقتصادی</option>
+      <option>متوسط</option>
+      <option>لاکچری</option>
+    </select>
+  </label>
+  <label>ترجیح ظاهری:
+    <select id="stylepref">
+      <option>مدرن ساده</option>
+      <option>کلاسیک فاخر</option>
+      <option>نئوکلاسیک لوکس</option>
+    </select>
+  </label>
+  <button type="button" onclick="suggestDesign()" style="padding:0.7rem; background:#d4af37; border:none; color:#000; font-weight:bold;">دریافت پیشنهاد</button>
+</form>
+<div id="advisorResult" style="margin-top:1.5rem; font-weight:bold; color:#f7d774;"></div>
+
+<script>
+function suggestDesign() {
+  const budget = document.getElementById("budget").value;
+  const stylepref = document.getElementById("stylepref").value;
+  let suggestion = "";
+
+  if (budget === "اقتصادی") {
+    if (stylepref.includes("مدرن")) suggestion = "MDF یا ممبران در سبک مدرن پیشنهاد می‌شود.";
+    else suggestion = "ممبران ابزارخورده گزینه مناسبی برای سبک کلاسیک اقتصادی است.";
+  } else if (budget === "متوسط") {
+    if (stylepref.includes("مدرن")) suggestion = "پلی‌اورتان در سبک مدرن با روکش مات پیشنهاد می‌شود.";
+    else suggestion = "پلی‌اورتان ابزارخورده مناسب سبک نئوکلاسیک است.";
+  } else if (budget === "لاکچری") {
+    if (stylepref.includes("نئوکلاسیک")) suggestion = "انزو یا چوب طبیعی ابزارخورده در سبک نئوکلاسیک توصیه می‌شود.";
+    else suggestion = "چوب طبیعی با رنگ پلیشی گزینه کلاسیک فاخر است.";
+  }
+
+  document.getElementById("advisorResult").innerText = "✅ پیشنهاد هوشمند: " + suggestion;
+}
+
+</script>
+
+</section>
+<section id="video">
+  
+<h3>معرفی برند فراچوب</h3>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/_KhP_zVEvJ4" frameborder="0" allowfullscreen></iframe>
+
+</section>
+
+<section id="contact" data-aos="fade-up">
+  <h3>ارتباط با فراچوب</h3>
+  <p>برای مشاوره، ثبت سفارش یا هماهنگی بازدید حضوری، از طریق راه‌های زیر با ما در تماس باشید:</p>
+
+  <ul style="line-height:2.2;">
+    <li>📞 <strong>تماس مستقیم:</strong> <a href="tel:09190355991" style="color:#f7d774;">09190355991</a></li>
+    <li>📱 <strong>واتساپ:</strong> <a href="https://wa.me/989190355991" target="_blank" style="color:#f7d774;">ارسال پیام</a></li>
+    <li>📸 <strong>اینستاگرام:</strong> <a href="https://www.instagram.com/learn.wood" target="_blank" style="color:#f7d774;">@learn.wood</a></li>
+    <li>📍 <strong>موقعیت:</strong> بندرعباس، استان هرمزگان<br>پروژه‌های خارج از شهر به‌عنوان شهرستان محاسبه می‌شوند (با احتساب فاصله)</li>
+  </ul>
+
+  <p style="margin-top:1rem;">همچنین می‌توانید فرم سفارش یا مشاور هوشمند را در بخش‌های دیگر سایت تکمیل کنید تا کارشناسان ما در اسرع وقت با شما تماس بگیرند.</p>
+</section>
+
+
+
+
+
+<section id="about">
+  <h3>درباره برند فراچوب</h3>
+  <p>
+    برند فراچوب حاصل بیش از ۱۵ سال تجربه تخصصی در طراحی و اجرای پروژه‌های چوبی است. ما در فراچوب فقط سازنده کابینت نیستیم، بلکه خالق فضاهایی هستیم که با سلیقه شما زندگی می‌کنند.
+  </p>
+  <p>
+    تمرکز ما بر کیفیت، دقت در طراحی، انتخاب متریال‌های مرغوب و اجرای جزئیات دقیق است. از سبک‌های مدرن و مینیمال تا نئوکلاسیک و کلاسیک، ما راه‌حل مناسب هر فضا را پیشنهاد می‌دهیم.
+  </p>
+  <p>
+    محدوده فعالیت ما در بندرعباس و استان هرمزگان است. پروژه‌های خارج از بندرعباس به عنوان شهرستان محاسبه می‌شوند و بر اساس مسافت، هزینه اضافی دارند.
+  </p>
+  <p>
+    شعار ما «<strong>فراچوب، امضای تجربه بر پیکره چوب</strong>» فقط یک جمله نیست؛ بلکه رویکردی است که در هر مرحله از مشاوره تا اجرا دنبال می‌کنیم.
+  </p>
+
+
+
+<div style="text-align:center; margin-top:2rem;">
+  <button onclick="showSection('contact')" class="button-luxury">✉️ ارتباط با ما</button>
+</div>
+</section>
+
+<footer style="background:#111; padding:2rem; text-align:center; color:#aaa; font-size:0.85rem; margin-top:4rem;">
+  <p>تمامی حقوق این وب‌سایت متعلق به برند فراچوب است ©</p>
+  <p>منتظر دیدار و اجرای پروژه رؤیایی شما هستیم 🌟</p>
+
+
+
+</footer>
+
+<script>
+function showSection(id) {
+  document.querySelectorAll("section").forEach(sec => sec.classList.remove("active"));
+  const el = document.getElementById(id);
+  if (el) el.classList.add("active");
+}
+
+function toggleMenu() {
+  const menu = document.querySelector(".menu-buttons");
+  menu.classList.toggle("active");
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const buttons = document.querySelectorAll(".menu-buttons button");
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      if (window.innerWidth <= 768) {
+        document.querySelector(".menu-buttons").classList.remove("active");
+      }
+    });
+  });
+});
+</script>
+
+</body>
+</html>
+
